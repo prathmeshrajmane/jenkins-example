@@ -1,8 +1,5 @@
 pipeline {
     agent any
-tools {
-						maven "Maven_Home"
-					}
     stages {
         stage ('Compile Stage') {
 
