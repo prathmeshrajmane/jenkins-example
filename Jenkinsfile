@@ -8,7 +8,7 @@ tools {
 
             steps {
                 withMaven(maven : 'Maven') {
-                    sh 'mvn clean compile'
+                    sh 'mvn compile'
                 }
             }
         }
